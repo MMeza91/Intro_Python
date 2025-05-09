@@ -4,7 +4,6 @@ import math as m
 print("Bienvenida/o, este programa te permite saber a que velocidad debes viajar para poder vencer la gravedad y escapar de un planeta. \nen adelante se te preguntarán algunos datos para saber tu velocidad de escape.\n\n")
 
 seguir=1
-valor_correcto=0
 
 while(seguir==1):
     g = float(input("Ingrese la constante de gravedad (g) del planeta en metros/segundos al cuadrado: "))
