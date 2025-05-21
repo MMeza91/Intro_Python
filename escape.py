@@ -16,7 +16,7 @@ while(seguir==1):
             valor_correcto=1
             medida="m"
             break
-        if(medida == "km") or (medida == "KM") or (medida == "Km") or (medida == "kM"):
+        elif(medida == "km") or (medida == "KM") or (medida == "Km") or (medida == "kM"):
             r = float(input("Ingrese el radio del planeta en kilonmetros: "))
             medida="km"
             valor_correcto=1
